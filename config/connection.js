@@ -36,7 +36,7 @@ async function getConnectionInfo() {
     DATABASE_NAME: process.env.DATABASE_NAME
   }
 }
-
+ 
 
 module.exports = {
   getConnectionInfo
