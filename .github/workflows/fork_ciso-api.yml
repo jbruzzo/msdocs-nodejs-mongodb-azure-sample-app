@@ -59,4 +59,4 @@ jobs:
           app-name: 'ciso-api'
           slot-name: 'Production'
           package: .
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_6DFD101123684F058B64B99BEB38D473 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_EFD7FDF8B1FF4969851B485990921569 }}
