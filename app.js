@@ -15,6 +15,7 @@ async function getApp() {
   // Database
   var connectionInfo = await configData.getConnectionInfo();
   mongoose.connect(connectionInfo.DATABASE_URL);
+  console.log(connectionInfo);
 
   var app = express();
 
